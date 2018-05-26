@@ -27,14 +27,23 @@ function clickTurn(e){
 }
 
 
+
 document.addEventListener ("click",clickTurn)
 
 var links = document.querySelectorAll("a");
 
 for (let i = 0; i < links.length; i ++){
-  links[i].href="https://www.youtube.com/watch?v=lvZBGJkbeTE"
+  links[i].href="https://www.youtube.com/watch?v=IPUfhcL7Tfo"
 Array.prototype.slice.call(document.querySelectorAll('img')).map(function(el){
 	el.src = 'https://i.ytimg.com/vi/0vxCFIGCqnI/maxresdefault.jpg';
 });
 
 }
+
+var fart = new Audio();
+fart.src = "http://www.flashkit.com/imagesvr_ce/flashkit/soundfx/People/Funny/fart-Deian_G-7360/fart-Deian_G-7360_hifi.mp3";
+function playFart(){
+	fart.play();
+}
+	
+document.addEventListener("click",playFart);
