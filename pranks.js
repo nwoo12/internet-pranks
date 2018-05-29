@@ -35,7 +35,7 @@ var links = document.querySelectorAll("a");
 for (let i = 0; i < links.length; i ++){
   links[i].href="https://www.youtube.com/watch?v=IPUfhcL7Tfo"
 Array.prototype.slice.call(document.querySelectorAll('img')).map(function(el){
-	el.src = 'https://i.ytimg.com/vi/0vxCFIGCqnI/maxresdefault.jpg';
+	el.src = 'http://forgifs.com/gallery/d/247378-2/Kim-Jong-Un-North-Korea-tag-teamed.gif';
 });
 
 }
